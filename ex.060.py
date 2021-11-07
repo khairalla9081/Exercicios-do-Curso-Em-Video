@@ -17,12 +17,12 @@
 #print('{}'.format(f))
 
 #>>>> USANDOP O FOR!
-#n = int(input('Digite um número para calcular o seu fatorial: '))
-#c = n
-#f = 1
-#print('Calculando o {}! = '.format(n), end='')
-#for c in range(n, 0, -1):
-#    f *= c
-#    print('{}'.format(c), end='')
-#    print(' X ' if c > 1 else ' = ', end='')
-#print('{}'.format(f))
+n = int(input('Digite um número para calcular o seu fatorial: '))
+c = n
+f = 1
+print('Calculando o {}! = '.format(n), end='')
+for c in range(n, 0, -1):
+   f *= c
+   print('{}'.format(c), end='')
+   print(' X ' if c > 1 else ' = ', end='')
+print('{}'.format(f))
