@@ -3,10 +3,10 @@ from ex115gb.lib.interface import *
 from ex115gb.lib.arquivo import *
 from time import sleep
 
-arq = 'cursoemvideo.txt'
+arq = 'cursoemvideo.txt' # Nome do aquivo.
 
-if not arquivoExiste(arq):
-    criarArquivo(arq)
+if not arquivoExiste(arq): # Verifica a criação do arquivo.
+    criarArquivo(arq) # Caso não exista a função criarArquivo é passada.
 
 while True:
     resposta = menu(['Ver pessoas cadastradas', 'Cadastrar nova Pessoa', 'Sair do Sistema'])
